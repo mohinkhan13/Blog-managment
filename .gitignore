@@ -1,0 +1,43 @@
+# ========================
+# Global ignores
+# ========================
+*.log
+*.env
+*.DS_Store
+*.sqlite3
+__pycache__/
+.env.local
+
+# ========================
+# Django Backend: MyBlog-Api-main
+# ========================
+MyBlog-Api-main/__pycache__/
+MyBlog-Api-main/*.pyc
+MyBlog-Api-main/db.sqlite3
+MyBlog-Api-main/media/
+MyBlog-Api-main/staticfiles/
+MyBlog-Api-main/.env
+MyBlog-Api-main/*.log
+MyBlog-Api-main/.vscode/
+
+# ========================
+# React Frontend: MyBlog-main
+# ========================
+MyBlog-main/node_modules/
+MyBlog-main/.env
+MyBlog-main/.DS_Store
+MyBlog-main/build/
+MyBlog-main/.vscode/
+MyBlog-main/dist/
+MyBlog-main/npm-debug.log*
+MyBlog-main/yarn-debug.log*
+MyBlog-main/yarn-error.log*
+
+# Vite cache (if using Vite)
+MyBlog-main/.vite/
+
+# ========================
+# OS Specific
+# ========================
+Thumbs.db
+ehthumbs.db
